@@ -24,6 +24,9 @@ default: &default
 
 development:
   <<: *default
+  host: localhost
+  username: fatos
+  password: fatos
   database: ecommerce_development
 
   # The specified database role being used to connect to postgres.
@@ -58,6 +61,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  username: fatos
+  password: fatos
   database: ecommerce_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
