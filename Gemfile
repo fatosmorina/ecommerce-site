@@ -24,6 +24,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'spree', '~> 3.2.0'
 gem 'spree_auth_devise', '~> 3.2.0.beta'
 gem 'spree_gateway', '~> 3.2.0.beta'
+gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
